@@ -1,0 +1,43 @@
+:root {
+    --primary-dark: #1F2937;
+    --primary-green: #6EE7B7;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    /* will align it in center */
+    text-align: center;
+}
+
+input, label {
+    /* will display in line one below the other */
+    display: block;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 30%;
+    padding: 1rem;
+    border: 2px solid black;
+    font-size: larger;
+    font-weight: 900;
+}
+
+#check-number {
+    padding: 0.5rem;
+    width: 10%;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #6EE7B7;
+    border: 2px solid var(--primary-dark);
+}
