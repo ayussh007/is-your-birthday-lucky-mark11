@@ -41,3 +41,21 @@ input {
     background-color: #6EE7B7;
     border: 2px solid var(--primary-dark);
 }
+
+.footer {
+    margin: auto;
+}
+
+.footer .link {
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
