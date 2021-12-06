@@ -8,6 +8,7 @@ const outputBox = document.querySelector("#output-box");
 
 function compareValues(sum, luckyNumber) {
     if(sum%luckyNumber==0) {
+        // The innerText property sets or returns the text content of the specified node, and all its descendants.
         outputBox.innerText= "YAY! Your birthday is lucky 🎂";
     }
     else {
@@ -30,6 +31,7 @@ function calculateSum(dob) {
     let sum=0;
     for(let index=0; index<dob.length; index++) {
         // make sure to typecast character to Number
+        // The charAt() method returns the character at a specified index (position) in a string. The index of the first character is 0, the second 1, ...
         sum = sum + Number(dob.charAt(index));
     }
     return sum;
